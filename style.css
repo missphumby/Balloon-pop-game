@@ -1,0 +1,55 @@
+body{
+    background: gainsboro
+}
+.wrapper{
+    max-width: 690px;
+    margin: auto;
+}
+h1{
+    font-size: 40px;
+    color: green;
+    margin-left: auto;
+    margin-right: auto;
+}
+#balloon-gallery{
+    display: inline-block;
+    margin: auto;
+    max-width: 400px;
+}
+#yay-no-balloons{
+    display: none;
+    color: red;
+    margin: auto;
+    font-size: 120px;
+}
+.blue{
+    color: blue;
+    font-size: 150px;
+}
+#balloon-gallery > div{
+    padding: 40px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: red;
+border: none;
+color: fuchsia;
+text-align: center;
+font-size: 40px;
+ margin: 2.5px 5px 2.5px 0px; 
+/* margin-top: 20px;
+margin-bottom: 5px; */
+
+}
+#balloon-gallery > div:nth-child(3n-1){
+background-color: gold;
+}
+
+#balloon-gallery > div:nth-child(10n){
+background-color: gray;
+}
+#balloon-gallery > div:nth-child(6n){
+    background-color: green;
+}
+#balloon-gallery > div:nth-child(5n){
+    background-color: skyblue;
+}
